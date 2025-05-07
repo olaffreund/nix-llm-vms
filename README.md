@@ -206,3 +206,4 @@ find /sys/kernel/iommu_groups/ -type l | sort -n -k5 -t/ | xargs -L1 basename -a
 This flake supports the following systems:
 - x86_64-linux
 - aarch64-linux
+- and other
