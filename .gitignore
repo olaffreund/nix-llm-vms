@@ -1,0 +1,19 @@
+# Ignore VM disk image
+llm-vm.qcow2
+
+# Ignore result folder
+.result/
+result/
+
+# Nix build outputs
+result
+result-*
+
+# Common development environment files
+.direnv/
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*~
